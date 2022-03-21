@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+  font-family: Merriweather, serif;
+  font-size: 1.8rem;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: .75rem;
+  grid-template-areas:
+  "box1 box1 box1"
+  "box2 box3 box4"
+}
+
+img {
+  width: 100%;
+  grid-area: box1;
+}
+
+.temple {
+  grid-area: box2;
+}
+
+.colossus {
+  grid-area: box3;
+}
+
+.gardens {
+  grid-area: box4;
+}
