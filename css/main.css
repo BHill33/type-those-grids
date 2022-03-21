@@ -13,7 +13,7 @@ html {
 
 h1 {
   padding: 1.5rem;
-  margin: 0rem;
+  margin: 0;
   font-family: Merriweather, serif;
   font-weight: normal;
   font-style: italic;
@@ -31,21 +31,19 @@ header {
 }
 
 div {
-  margin: 0;
-  padding: 0;
+  margin: 1rem;
+  padding: 1rem;
   font-style: italic;
   font-weight: normal;
   grid-area: box4;
   grid-column: 1 / -1;
   align-self: end;
   color: white;
-  padding: 1rem;
-  margin: 1rem;
 }
 
 main {
   margin: 0;
-  padding: 1rem 0rem 0rem 0rem;
+  padding: .75rem 0 0;
   gap: .75rem;
   font-weight: normal;
   list-style: none;
@@ -68,26 +66,27 @@ img {
   padding: 0;
   margin: 0;
 }
+
 p {
   padding: 0;
   margin: 0;
 }
 
 .temple {
-  margin: 0rem;
-  padding: 0rem;
+  margin: 0;
+  padding: 0;
   grid-area: box1;
 }
 
 .colossus {
-  margin: 0rem;
-  padding: 0rem;
+  margin: 0;
+  padding: 0;
   grid-area: box2;
 }
 
 .gardens {
-  margin: 0rem;
-  padding: 0rem;
+  margin: 0;
+  padding: 0;
   grid-area: box3;
 }
 
@@ -97,12 +96,16 @@ dt {
 
 dl {
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 1rem;
 }
 
 h2 {
   font-style: italic;
   font-weight: normal;
   margin: 0;
-  padding: 1rem 0rem 0rem 0rem;
+  padding: 1rem 0 0 1rem;
+}
+
+body {
+  margin: 0;
 }
